@@ -1,0 +1,19 @@
+{# {{dump(swag_shop_finder)}}
+
+ #}
+
+<div class="col-md4 footer-column">
+
+	{{ 'swag_shop_finder.footerTitle' | trans }}
+	<div class="footer-column-toggle">
+		<span class="footer-plus-icon">{% sw_icon 'plus'%}</span>
+		<span class="footer-minus-icon">{% sw_icon 'minus'%}</span>
+	</div>
+	<div class="collapseFooterHotline">
+		<ul>
+			{% for shop in swag_shop_finder.elements %}
+				<li href="" data-toggle="model" data-target="shop-{{ shop.id }}">{{shop.name}}</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
