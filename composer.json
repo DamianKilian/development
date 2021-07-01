@@ -28,7 +28,7 @@
     "config": {
         "optimize-autoloader": true,
         "platform": {
-            "php": "7.4.0"
+            "php": "7.4.3"
         },
         "sort-packages": true
     },
@@ -40,7 +40,7 @@
         }
     },
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.4.3 || ^8.0",
         "composer-runtime-api": "^2.0",
         "shopware/platform": "6.4.x@dev || dev-trunk"
     },
@@ -65,12 +65,12 @@
         "phpunit/php-code-coverage": "9.2.5",
         "phpunit/phpunit": "9.5.2",
         "smalot/pdfparser": "0.14.0",
-        "symfony/browser-kit": "~4.4.4",
-        "symfony/dependency-injection": "~4.4.4 || ~5.2.3",
-        "symfony/phpunit-bridge": "~4.4.4 || ~5.2.3",
-        "symfony/stopwatch": "~4.4.4 || ~5.2.3",
-        "symfony/var-dumper": "~4.4.4 || ~5.2.3",
-        "symfony/web-profiler-bundle": "~4.4.4 || ~5.2.3",
-        "symfony/dom-crawler": "~4.4.4 || ~5.2.3"
+        "symfony/browser-kit": "~4.4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/dependency-injection": "~4.4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/phpunit-bridge": "~4.4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/stopwatch": "~4.4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/var-dumper": "~4.4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/web-profiler-bundle": "~4.4.4 || ~5.2.3 || ~5.3.0",
+        "symfony/dom-crawler": "~4.4.4 || ~5.2.3 || ~5.3.0"
     }
 }
